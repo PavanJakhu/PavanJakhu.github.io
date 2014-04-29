@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*The same throughout all pages*/
+#mainContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/*Navigation*/
+nav li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 100px;
+	font-size: 30pt;
+}
+
+nav {
+	margin-left: -40px;
+}
+
+a:link, a:visited {
+	text-decoration:  none; 
+	color: #3169BA;
+}
+
+a:hover, #onPage {
+	color: #042E7A;
+}
+
+/*Main block*/
+#content {
+	background-color: #EAEAEA;
+	overflow:auto;
+}
+
+#image {
+	float: left;
+	display: block;
+	width: 200px;
+	height: 95px;
+}
+
+/*Footer*/
+#footer {
+	text-align: center;
+	margin-top: 67px;
+	font-size: 8pt;
+}
+
+/*Header*/
+#content div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+}
+
+span.text {
+	display: block;
+	text-align: center;
+}
+
+span.name {
+	color: #0658BA;
+	font-size: 65pt;
+	padding-top: 30px;
+}
+
+span.title {
+	color: #0658BA;
+	font-size: 28pt;
+	opacity: 0.3;
+}
+
+#lightbox {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+/*Actual content of page*/
+/*Home*/
+.des {
+	opacity: 0.7;
+	padding-bottom: 20px;
+}
+
+#social {
+	margin-bottom: 30px;
+}
+
+#social img{
+	margin-right: 70px;
+}
+
+#social .noMargin {
+	margin-right: 55px;
+}
+
+#social #last, #works #last {
+	margin-right: 0px;
+}
+
+#works span{
+	font-size: 17pt;
+	display: block;
+}
+
+#works #image{
+	margin-top: -15px;
+	margin-bottom: 40px;
+	margin-right: 60px;
+}
+
+#imageRight {
+	float: right;
+	display: block;
+	margin-top: -15px;
+	width: 200px;
+	height: 95px;
+}
+
+/*About*/
+#content {
+	height: 525px;
+}
+
+#about {
+	margin-top: 80px;
+}
+
+#pictureMe {
+	float: left;
+	width: 150px;
+	height: 150px;
+	padding-right: 10px;
+}
+
+#resume {
+	text-align: center;
+}
+
+#resumeLink:link, #resumeLink:visited {
+	text-decoration: none; 
+	color: #5FA8FF;
+}
+
+#resumeLink:hover {
+	color: #042E7A;
+}
+
+/*Contact*/
+#contentCont {
+	background-color: #EAEAEA;
+	height: 525px;
+}
+
+#contentCont div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+#contact {
+	margin-top: 20px;
+}
+
+#emailIn {
+	margin-left: 157px;
+	margin-bottom: 10px;
+	margin-top: 2px;
+}
+
+#emailOut {
+	margin-left: 328px;
+}
+
+#messageIn {
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+/*Portfolio*/
+#text {
+	margin-top: 20px;
+	font-size: 28pt;
+}
+
+#recent #image {
+	margin-bottom: 30px;
+	margin-right: 40px;
+}
+
+a.image1 { background: url(../Images/Image%20links/defenders_slider.png) no-repeat 0 0; }
+a.image1:hover { background: url(../Images/Image%20links/defenders_slider.png) no-repeat 0 -95px; }
+
+a.image2 { background: url(../Images/Image%20links/rpg_slider.png) no-repeat 0 0; }
+a.image2:hover { background: url(../Images/Image%20links/rpg_slider.png) no-repeat 0 -95px; }
+
+a.image3 { background: url(../Images/Recent.png); }
+
+a.image4 { background: url(../Images/Recent.png); }
+
+a.image5 { background: url(../Images/Recent.png); }
+
+a.image6 { background: url(../Images/Recent.png); }
